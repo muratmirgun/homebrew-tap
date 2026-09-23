@@ -2,28 +2,28 @@
 class Owncode < Formula
   desc "Terminal coding agent with orchestration and context compaction"
   homepage "https://github.com/muratmirgun/owncode"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/muratmirgun/owncode/releases/download/v0.4.0/owncode-mac-arm64.tar.gz"
-      sha256 "b7cf930c72b556cbfab6733964917f10b55326c7ef2cf3151db64d2fd7b67dfd"
+      url "https://github.com/muratmirgun/owncode/releases/download/v0.4.1/owncode-mac-arm64.tar.gz"
+      sha256 "1cab83f2f0bbdcdd7eae9478115b09a48b53ffd0f33ab1c0f370c410db7cf49b"
     end
     on_intel do
-      url "https://github.com/muratmirgun/owncode/releases/download/v0.4.0/owncode-mac-x86_64.tar.gz"
-      sha256 "edc7402913618278fb1cf897d82977de3757014c84a7df8bb86c08230f0c459e"
+      url "https://github.com/muratmirgun/owncode/releases/download/v0.4.1/owncode-mac-x86_64.tar.gz"
+      sha256 "c55e504f4c90cad993d273d8eef0d14d1bc96848eaed11a067871444ce08d924"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/muratmirgun/owncode/releases/download/v0.4.0/owncode-linux-arm64.tar.gz"
-      sha256 "9cd8e1f97e7646c1faa0bc060eb0095e5f1909c5557c8a086e1abc14355c9834"
+      url "https://github.com/muratmirgun/owncode/releases/download/v0.4.1/owncode-linux-arm64.tar.gz"
+      sha256 "f6d575ee83898e5483d3d106b0b7c6dc96e83cd97c2204464a5e55382fcd85ec"
     end
     on_intel do
-      url "https://github.com/muratmirgun/owncode/releases/download/v0.4.0/owncode-linux-x86_64.tar.gz"
-      sha256 "36d68f9c679bf8068994e12fd639075e89df7722c13ca6d3c4dca9d8426a2828"
+      url "https://github.com/muratmirgun/owncode/releases/download/v0.4.1/owncode-linux-x86_64.tar.gz"
+      sha256 "d1a6e12605c34ad7a44b27d5cf5dab75bc89879f21af39143e40578da5ef2947"
     end
   end
 
